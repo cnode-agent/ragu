@@ -10,6 +10,9 @@ pub use header::{Header, Suffix};
 pub use poly_commitment::{HANDLE_WIRES, PolyHandle};
 pub use proof::{PROOF_SIZE_COMPRESSED, Pcd, Proof};
 pub use step::{Encoded, Index, Step};
+pub use wire::WireHeader;
+
+pub mod wire;
 
 mod application;
 mod ctx;

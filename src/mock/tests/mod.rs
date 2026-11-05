@@ -6,6 +6,7 @@ use udon::curve::{AffineAdapter, Projective as _};
 
 mod application;
 mod proof;
+mod wire;
 
 /// Deterministic test parameters with distinct generators at every test-rank
 /// coefficient. Production callers supply ragu's canonical baked parameters.
